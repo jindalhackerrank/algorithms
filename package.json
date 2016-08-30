@@ -1,0 +1,49 @@
+{
+    "name": "ds-and-algos-in-js",
+    "version": "1.0.0",
+    "description": "Implementation of traditional data structures and algorithms and some of the algorithmic problems in javascript",
+    "main": "index.js",
+    "scripts": {
+        "commit": "git-cz",
+        "test": "mocha src/index.test.js -w",
+        "test: single": "mocha src/index.test.js",
+        "semantic - release": "semantic-release pre && npm publish && semantic-release post"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jindalhackerrank/algorithms.git"
+    },
+    "keywords": [
+        "data",
+        "strcutures",
+        "algorithms",
+        "traditional",
+        "computer",
+        "science",
+        "problems",
+        "arrays",
+        "linked",
+        "list",
+        "trees",
+        "binary",
+        "tree",
+        "dynamic",
+        "programming"
+    ],
+    "author": "Ashish Jindal",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jindalhackerrank/algorithms/issues"
+    },
+    "devDependencies": {
+        "chai": "3.5.0",
+        "commitizen": "2.8.2",
+        "cz-conventional-changelog": "1.1.6",
+        "mocha": "2.5.3",
+        "semantic-release": "^4.3.5"
+    },
+    "czConfig": {
+        "path": "node_modules/cz-conventional-changelog"
+    },
+    "homepage": "https://github.com/jindalhackerrank/algorithms#readme"
+}
